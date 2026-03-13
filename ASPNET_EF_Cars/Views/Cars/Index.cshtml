@@ -4,8 +4,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
+<h1>COOL CARS FOR COOL PEOPLE</h1>
+<form asp-action="Search" method="post">
+    <input name="request" placeholder="поиск..."/>
+    <button type="submit">🔍</button>
+</form>
 <p>
     <a asp-action="Create">Create New</a>
 </p>

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\data\\aspcarscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\data\\aspcarscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|solutionrelative:aspnet_ef_cars\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19F053B-62D1-BEC8-2D03-80F5A9FF1DF3}|ASPNET_EF_Cars\\ASPNET_EF_Cars.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\aspnet_ef_cars\\aspnet_ef_cars\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Views\\Cars\\Index.cshtml",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Views\\Cars\\Index.cshtml",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Views\\Cars\\Index.cshtml",
               "RelativeToolTip": "ASPNET_EF_Cars\\Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-11T08:10:28.45Z",
               "EditorCaption": ""
@@ -115,26 +115,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CarsController.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Controllers\\CarsController.cs",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Controllers\\CarsController.cs",
               "RelativeToolTip": "ASPNET_EF_Cars\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T06:24:18.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "ASPNET_EF_Cars\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAwJEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAwJcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T06:43:26.566Z",
               "EditorCaption": ""
@@ -153,20 +153,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Car.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Models\\Car.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Models\\Car.cs",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Models\\Car.cs",
               "RelativeToolTip": "ASPNET_EF_Cars\\Models\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T07:06:29.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Program.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Program.cs",
@@ -174,12 +174,11 @@
               "RelativeToolTip": "ASPNET_EF_Cars\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T05:42:17.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T05:42:17.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AspcarsContext.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Data\\AspcarsContext.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Data\\AspcarsContext.cs",
@@ -187,12 +186,11 @@
               "RelativeToolTip": "ASPNET_EF_Cars\\Data\\AspcarsContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:23:28.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T06:23:28.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CarCategory.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\ViewModels\\CarCategory.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\ViewModels\\CarCategory.cs",
@@ -200,12 +198,11 @@
               "RelativeToolTip": "ASPNET_EF_Cars\\ViewModels\\CarCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:13:39.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T07:13:39.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CarViewModel.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\ViewModels\\CarViewModel.cs",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\ViewModels\\CarViewModel.cs",
@@ -213,12 +210,11 @@
               "RelativeToolTip": "ASPNET_EF_Cars\\ViewModels\\CarViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:08:34.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T08:08:34.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\hw\\dz10_03\\ASPNET_EF_Cars\\ASPNET_EF_Cars\\Views\\Cars\\Details.cshtml",
               "RelativeDocumentMoniker": "ASPNET_EF_Cars\\Views\\Cars\\Details.cshtml",
@@ -226,8 +222,7 @@
               "RelativeToolTip": "ASPNET_EF_Cars\\Views\\Cars\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-11T08:12:04.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T08:12:04.873Z"
             },
             {
               "$type": "Document",
