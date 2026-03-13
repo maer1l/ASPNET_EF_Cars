@@ -338,3 +338,4 @@ D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\bin\Debug\net10.0\
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\ASPNET_EF_Cars.sourcelink.json
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\woy39mzn3x-{0}-owcz6oz84z-owcz6oz84z.gz

@@ -53,8 +53,16 @@ namespace ASPNET_EF_Cars.Controllers
                 {
                     var filteredCars = from p in cars where p.Brand == request select p;
                     filteredCars = filteredCars.Union(from p in cars where p.Model == request select p);
-                    int catId = cates.SingleOrDefault(p => p.Title == request).CategoryId;
-                    filteredCars = filteredCars.Union(from p in cars where p.CategoryId == catId select p);
+                    try
+                    {
+                        int catId = cates.SingleOrDefault(p => p.Title == request).CategoryId;
+                        filteredCars = filteredCars.Union(from p in cars where p.CategoryId == catId select p);
+                    }
+                    catch 
+                    {
+
+                    }
+
                     if (DateOnly.TryParse(request, out dat))
                     {
                         filteredCars = filteredCars.Union(from p in cars where p.Year == dat select p);
@@ -94,14 +102,6 @@ namespace ASPNET_EF_Cars.Controllers
             var filteredCars = from p in _context.Cars.ToList() where p.Brand == Brand select p;
             var vmodel = new CarViewModel { cars = filteredCars, categories = cates };
             return View("Index", vmodel);
-        }
-
-        public async Task<IActionResult> CarsCategories()
-        {
-            var cars = await _context.Cars.ToListAsync();
-            var cates = await _context.Categories.ToListAsync();
-            var vmodel = new CarViewModel { cars = cars, categories = cates };
-            return View(vmodel);
         }
 
         // GET: Cars/Details/5

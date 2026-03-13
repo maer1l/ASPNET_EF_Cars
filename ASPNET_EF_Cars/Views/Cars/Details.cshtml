@@ -5,48 +5,39 @@
 }
 
 <h1>Details</h1>
+<h4>Car</h4>
+<div class="container">
+    <div class="details-grid">
+        <div class="detail-item">
+            <div class="detail-label">@Html.DisplayNameFor(model => model.car.Brand)</div>
+            <div class="detail-value">@Html.DisplayFor(model => model.car.Brand)</div>
+        </div>
 
-<div>
-    <h4>Car</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.car.Brand)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.car.Brand)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.car.Model)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.car.Model)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.car.Speed)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.car.Speed)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.car.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.car.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.car.Year)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.car.Year)
-        </dd>
-        <dt class = "col-sm-2">
-            <label>Category</label>
-        </dt>
-        <dd class = "col-sm-10">
-            @Model.categories.FirstOrDefault(c => c.CategoryId == Model.car.CategoryId).Title
-        </dd>
-    </dl>
+        <div class="detail-item">
+            <div class="detail-label">@Html.DisplayNameFor(model => model.car.Model)</div>
+            <div class="detail-value">@Html.DisplayFor(model => model.car.Model)</div>
+        </div>
+
+        <div class="detail-item">
+            <div class="detail-label">@Html.DisplayNameFor(model => model.car.Speed)</div>
+            <div class="detail-value">@Html.DisplayFor(model => model.car.Speed)</div>
+        </div>
+
+        <div class="detail-item">
+            <div class="detail-label">@Html.DisplayNameFor(model => model.car.Price)</div>
+            <div class="detail-value">@Html.DisplayFor(model => model.car.Price)</div>
+        </div>
+
+        <div class="detail-item">
+            <div class="detail-label">@Html.DisplayNameFor(model => model.car.Year)</div>
+            <div class="detail-value">@Html.DisplayFor(model => model.car.Year)</div>
+        </div>
+
+        <div class="detail-item">
+            <div class="detail-label">Категория</div>
+            <div class="detail-value">@Model.categories.FirstOrDefault(c => c.CategoryId == Model.car.CategoryId)?.Title</div>
+        </div>
+    </div>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.car.CarId">Edit</a> |
