@@ -76,6 +76,51 @@ namespace ASPNET_EF_Cars.Controllers
             return View("Index", vmodel);
         }
 
+        [HttpGet]
+        [HttpPost]
+        public async Task<IActionResult> ajaxSearch(string request)
+        {
+            IEnumerable<Car> filteredCars = null;
+            var cars = await _context.Cars.ToListAsync();
+            var cates = await _context.Categories.ToListAsync();
+            decimal val = 0;
+            DateOnly dat = new DateOnly();
+            if (!request.IsNullOrEmpty())
+            {
+                if (decimal.TryParse(request, out val))
+                {
+                    filteredCars = from p in cars where p.Price == val select p;
+                    filteredCars = filteredCars.Union(from p in cars where p.Speed == Convert.ToDouble(val) select p);
+                    var model = new CarViewModel { cars = filteredCars, categories = cates };
+                    return PartialView(model);
+                }
+                else
+                {
+                    filteredCars = from p in cars where p.Brand == request select p;
+                    filteredCars = filteredCars.Union(from p in cars where p.Model == request select p);
+                    try
+                    {
+                        int catId = cates.SingleOrDefault(p => p.Title == request).CategoryId;
+                        filteredCars = filteredCars.Union(from p in cars where p.CategoryId == catId select p);
+                    }
+                    catch
+                    {
+
+                    }
+
+                    if (DateOnly.TryParse(request, out dat))
+                    {
+                        filteredCars = filteredCars.Union(from p in cars where p.Year == dat select p);
+                    }
+                    var v = new CarViewModel { cars = filteredCars, categories = cates };
+                    return PartialView(v);
+                }
+            }
+
+            var vmodel = new CarViewModel { cars = cars, categories = cates };
+            return PartialView(vmodel);
+        }
+
         [Route("Cars/category/{Title}")]
         public IActionResult CarsByCat(string Title)
         {

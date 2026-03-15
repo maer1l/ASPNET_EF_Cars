@@ -1,0 +1,65 @@
+﻿@model ASPNET_EF_Cars.ViewModels.CarViewModel
+
+    <div id="results">
+    <table class="table-wrap">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.cars.First().Brand)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cars.First().Model)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cars.First().Speed)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cars.First().Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cars.First().Year)
+                </th>
+                <th>
+                    <label>Category</label>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.cars)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Brand)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Model)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Speed)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        @Model.categories.FirstOrDefault(c => c.CategoryId == item.CategoryId).Title
+                    </td>
+                    <td>
+                        <div style="display:flex; flex-direction:row; gap: 10px;">
+                            <a asp-action="Edit" asp-route-id="@item.CarId">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.CarId">Details</a>
+                            <form asp-action="Delete" asp-route-id="@item.CarId" id="delf">
+                                <input type="hidden" asp-for="@item.CarId" />
+                                <button type="submit" style="border: 0px solid black; background-color: transparent">Delete</button>
+                                <!--<a onclick="onsubm()" class="text-primary">Delete</a>-->
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -4,15 +4,23 @@
     ViewData["Title"] = "Index";
 }
 
-<form class="nav-search" asp-action="Search" method="post">
-    <input name="request" placeholder="поиск..." />
-    <button type="submit">🔍</button>
+<form data-ajax="true" data-ajax-method="post" data-ajax-url="/Cars/ajaxSearch" data-ajax-update="#results" class="nav-search">
+    <!--data-ajax-confirm="Are you sure?"-->
+    <input type="text" name="request" placeholder="поиск..." />
+    <input type="submit" value="🔍" />
 </form>
+
+<!--<form class="nav-search" asp-action="Search" method="post">
+    <input name="request" placeholder="поиск..."/>
+    <button type="submit">🔍</button>
+</form>-->
+
 <div class="container">
     <div class="page-header">
         <h1 class="page-title">Машины</h1>
         <a asp-action="Create" class="btn btn-primary">+ Добавить</a>
     </div>
+    <div id="results">
     <table class="table-wrap">
         <thead>
             <tr>
@@ -65,19 +73,12 @@
                         <form asp-action="Delete" asp-route-id="@item.CarId" id="delf">
                             <input type="hidden" asp-for="@item.CarId"/>
                             <button type="submit" style="border: 0px solid black; background-color: transparent">Delete</button>
-                                <!--<a onclick="onsubm()" class="text-primary">Delete</a>-->
                         </form>
                     </div>
                 </td>
             </tr>
     }
         </tbody>
-    </table>
+        </table>
+    </div>
 </div>
-
-<!--<script>
-    function onsubm(){
-        let f = document.getElementById("delf");
-        f.submit();
-    }
-</script>-->

@@ -339,3 +339,12 @@ D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\bin\Debug\net10.0\
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\ASPNET_EF_Cars.sourcelink.json
 D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\woy39mzn3x-{0}-owcz6oz84z-owcz6oz84z.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\q8mxlxth1a-{0}-kzl8yqnweh-kzl8yqnweh.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\auej1b5p8j-{0}-a9g0tgvzl6-a9g0tgvzl6.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\y16ouc8kzz-{0}-g444wdmmzo-g444wdmmzo.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\kas81d86b8-{0}-zavr8v9tht-zavr8v9tht.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\6nux47tsfe-{0}-1nxpn3soyl-1nxpn3soyl.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\8dljqjnhip-{0}-v8a4mjsx8n-v8a4mjsx8n.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\494lg044w6-{0}-izdcv3gtu3-izdcv3gtu3.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\80uxwu1gfp-{0}-8s3e7ez87j-8s3e7ez87j.gz
+D:\Шаг\web\aspnet\hw\dz10_03\ASPNET_EF_Cars\ASPNET_EF_Cars\obj\Debug\net10.0\compressed\m43ax2w1qx-{0}-a8zt0zds5m-a8zt0zds5m.gz
