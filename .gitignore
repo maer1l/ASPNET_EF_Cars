@@ -1,0 +1,27 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ASPNET_EF_Cars.slnx/FileContentIndex/02d3b35f-c369-4611-9e8c-2db3e8115ac4.vsidx
+/.vs/ASPNET_EF_Cars.slnx/DesignTimeBuild/.dtbcache.v2
+/.vs/ASPNET_EF_Cars.slnx/FileContentIndex/0bbc7cd4-78ff-4309-9cd4-4fbf82c8253a.vsidx
+/.vs/ASPNET_EF_Cars.slnx/FileContentIndex/801283ea-cc06-4a74-9468-68275822a585.vsidx
+/.vs/ASPNET_EF_Cars.slnx/FileContentIndex/83dd562b-2c36-41ba-b51d-e65f8bfdb6f1.vsidx
+/.vs/ASPNET_EF_Cars.slnx/FileContentIndex/bb8ee9c0-7fe7-4edf-ab95-f7c9f89cb49f.vsidx
+/.vs/ASPNET_EF_Cars.slnx/v18/.suo
+/.vs/ASPNET_EF_Cars.slnx/v18/DocumentLayout.backup.json
+/.vs/ASPNET_EF_Cars.slnx/v18/DocumentLayout.json
+/ASPNET_EF_Cars/bin/Debug/net10.0/ASPNET_EF_Cars.dll
+/ASPNET_EF_Cars/bin/Debug/net10.0/ASPNET_EF_Cars.exe
+/ASPNET_EF_Cars/bin/Debug/net10.0/ASPNET_EF_Cars.pdb
+/ASPNET_EF_Cars/obj/Debug/net10.0/ref/ASPNET_EF_Cars.dll
+/ASPNET_EF_Cars/obj/Debug/net10.0/refint/ASPNET_EF_Cars.dll
+/ASPNET_EF_Cars/obj/Debug/net10.0/apphost.exe
+/ASPNET_EF_Cars/obj/Debug/net10.0/ASPNET_EF_Cars.AssemblyInfo.cs
+/ASPNET_EF_Cars/obj/Debug/net10.0/ASPNET_EF_Cars.AssemblyInfoInputs.cache
+/ASPNET_EF_Cars/obj/Debug/net10.0/ASPNET_EF_Cars.dll
+/ASPNET_EF_Cars/obj/Debug/net10.0/ASPNET_EF_Cars.pdb
+/ASPNET_EF_Cars/obj/Debug/net10.0/ASPNET_EF_Cars.sourcelink.json
+/ASPNET_EF_Cars/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/ASPNET_EF_Cars/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/ASPNET_EF_Cars/obj/Debug/net10.0/rpswa.dswa.cache.json
